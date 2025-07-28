@@ -1,0 +1,16 @@
+body{
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+
+}
+h1{
+    color: rgb(59, 26, 245);
+    background-color: darkgoldenrod;
+}
+h2{
+    color: brown;
+}
+p {
+    text-align: justify;
+}
