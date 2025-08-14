@@ -5,22 +5,28 @@
     padding: 0px;
 }
 html, body{
-    min-width: 100vh;
+    min-width: 100vw;
     background-color: darkgray;
 }
-header{
+header, footer{
     background-color: black;
     color: white;
     padding-top: 20px;
+}
+
+header h1{
     text-align: center;
-    font-size: 5vw;
+    font-size: 10vw;
 }
 
 header p{
+    font-size: 30px;
     padding-bottom: 20px;
+    text-align: center;
 }
 
 section{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
@@ -42,11 +48,27 @@ section.imagem{
 }
 
 section#img01{
-    background-image: url('..');
+    background-image: url('../imagens/girasol.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section#img02{
+    background-image: url('../imagens/livro.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment:fixed ;
 }
 
 section.imagem > p{
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.437);
+}
+
+footer h1{
+    text-align: center;
 }
