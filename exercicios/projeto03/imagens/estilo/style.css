@@ -1,4 +1,4 @@
-
+@charset "utf8";
 
 *{
     margin: 0px;
@@ -10,10 +10,18 @@ html, body{
     background-color: rgba(0, 0, 0, 0.341);
 }
 
-header{
+header, footer{
     background-color: black;
     color: white;
     padding-top: 20px;
+}
+
+a{
+    color: white
+}
+
+a:hover{
+    color: blue;
 }
 
 header h1{
@@ -70,4 +78,8 @@ section#img2{
 
 section > p{
     padding: 20px;
+}
+
+footer h1{
+    text-align: center;
 }
