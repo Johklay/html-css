@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()"> menu</span>
+        <menu id="opcoes">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testanto Midias Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore pariatur officiis, velit excepturi dolore debitis eum dolorum obcaecati praesentium a cupiditate, at minus hic facilis omnis in maiores vel quae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, ut. Sunt commodi, quia, delectus eum veritatis aperiam illum quibusdam, eius consectetur eaque suscipit excepturi. Optio enim omnis hic quod eligendi!</p>
+
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore ratione sint eum quia accusamus eaque incidunt provident expedita culpa modi, similique illum officiis voluptates eos fugiat suscipit rem ducimus atque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam doloribus suscipit provident quod odio eius! Illo quis fuga repellendus temporibus, tenetur, eius quos fugit beatae nisi quidem quibusdam commodi pariatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptates quae ab earum voluptas? Asperiores fugit ex fuga mollitia illo eum a esse repellat reprehenderit dolorem, consequuntur eaque laborum neque?</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (opcoes.style.display == 'block') {
+                opcoes.style.display = 'none'
+            } else{
+                opcoes.style.display = 'block'
+            }
+        } 
+    </script>
+</body>
+</html>
