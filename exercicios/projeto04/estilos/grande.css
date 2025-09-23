@@ -1,8 +1,40 @@
 @charset "UTF-8";
 
-@media (max-width:1000px) and (min-width:600px) {
-    main img{
-      width: 100%;
+@media (max-width:1900px) and (min-width:600px) {
 
+    body{
+      font-size: 1.5em;
+      text-align: center;
     }
-}
+
+    header > h1 > img{
+      width: 70vw;
+    }
+
+    header h2{
+      text-align: center;
+    }
+    main img{
+      width: 70vw;
+    }
+
+    main li{
+      list-style: none;
+    }
+
+    table{
+      margin: auto;
+      width: 77vw;
+      height: 300px;
+      table-layout: fixed;
+    }
+
+    table th{
+      font-size: 25px;
+      padding: 25px;
+    }
+
+    table td{
+      font-size: 20px;
+    }
+  }
