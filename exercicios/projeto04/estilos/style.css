@@ -38,7 +38,13 @@ main p{
 
 main ul{
    list-style: circle;
-  padding: 20px;
+    padding: 20px;
+}
+
+main li{
+    color: black;
+    font-size: 1em;
+    line-height: 30px;
 }
 
 caption{
@@ -61,6 +67,7 @@ table th, td{
 
 main img{
     width: 100%;
+    padding: 20px 0px 20px 0px;
 }
 
 nav{
@@ -71,8 +78,10 @@ nav h2{
     padding-top: 20px;
 }
 
-nav a{
+nav > a{
     color: black;
+    font-weight: bolder;
+    text-decoration: none;
 }
 
 a:hover{
