@@ -14,7 +14,7 @@ preto #222222
 }
 
 body, html{
-    background-color: #E0E0E0;
+    background-color:#E0E0E0;
     font-family:"Open Sans"sans-serif;
     font-size: 1em;
     width: 100vw;
@@ -26,19 +26,22 @@ header{
 }
 
 header > h1{
+    background-color: rgba(0, 0, 0, 0.482);
     text-decoration: underline;
     text-align: center;
     padding: 20px 0px 20px 0px;
 }
 
 nav{
+    padding: 10px;
     font-size: 1.1em;
-    background-color: #4b474788 ;
 }
 
 nav > a{
     text-decoration: none;
-    padding: 10px;
+    line-height: 30px;
+    color: black;
+    
 }
 
 h1{
@@ -51,14 +54,42 @@ h2{
     padding: 10px;
 }
 
+h4{
+    padding: 10px;
+}
+
 p{
     padding: 10px;
 }
 
+ul{
+    background-color: white;
+    list-style: none ;
+    padding: 5px;
+}
+
+li{
+    padding: 10px;
+}
+
 img{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.748);
     width: 100vw;
 }
 
 .card{
+    
     background-color: white;
+}
+
+#contatos{
+    background-color: rgba(0, 0, 0, 0.788);
+    color: white;
+}
+
+footer > p{
+    font-size: 1.1em;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
 }
