@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/*paleta de cores
+Azul #4A90E2
+cinza claro #E0E0E0
+preto #222222
+*/
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body, html{
+    background-color: #E0E0E0;
+    font-family:"Open Sans"sans-serif;
+    font-size: 1em;
+    width: 100vw;
+    height: 100vh;
+}
+
+header{
+    background-color:white;
+}
+
+header > h1{
+    text-decoration: underline;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+nav{
+    font-size: 1.1em;
+    background-color: #4b474788 ;
+}
+
+nav > a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+h1{
+    text-decoration: underline;
+    padding: 10px;
+    
+}
+
+h2{
+    padding: 10px;
+}
+
+p{
+    padding: 10px;
+}
+
+img{
+    width: 100vw;
+}
+
+.card{
+    background-color: white;
+}
